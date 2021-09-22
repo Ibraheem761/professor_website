@@ -3,15 +3,24 @@
     opacity: 0.7;
 }
 
-.number {
-    position: absolute;
-    color: white;
-    left: 43vw;
-    transform: translateY(-1rem);
-    display: none;
-}
 
-.hide:hover + .number {
-    position: absolute;
-    display: block;
+ .pricep {
+     opacity: 0.9;
+     margin-left: 2rem;
+     margin-right: 2rem;
+     font-size: 12px;
  }
+
+.widthp {
+    width: 80%;
+ }
+
+ @media screen and (max-width: 700px) {
+    .widthp {
+        width: 100%;
+     }
+
+     #divphonemore {
+         text-align: center;
+     }
+  }
